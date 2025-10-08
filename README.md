@@ -10,7 +10,7 @@ I will leave a video demonstration where I show you how to install osTicket step
 
 <h1>Video Demonstration</h1>
 
-- ### [https://youtu.be/YHyzKRBQ1_I)
+- ### [How to Install osTicket video](https://youtu.be/YHyzKRBQ1_I)
 
 <h2>Environments and Technologies Used</h2>
 Here you can find the prerequisites needed to install osTicket 
