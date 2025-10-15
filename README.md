@@ -51,7 +51,7 @@ Now that your VM is created, it's time to access it using remote desktop access.
 <br>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1866" height="761" alt="Captura de pantalla 2025-10-14 220347" src="https://github.com/user-attachments/assets/6559f480-b872-4259-9ac1-d7a2161fd8b4" />
 </p>
 
 <p>
@@ -67,9 +67,14 @@ We will install MySQL with the following configuration: typical setup> check the
 <br>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1871" height="910" alt="Captura de pantalla 2025-10-14 222024" src="https://github.com/user-attachments/assets/49796b9f-3a96-4efe-9363-4e738b8dd243" />
 </p>
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+For this step, open IIS (Internet Information Services) Manager as an administrator in your Windows search bar, select PHP manager, and click "register new PHP version." Browse the following route 
+C:\PHP\php-cgi.exe
+
+Go back to the PHP manager and restart your PHP (osticket\labuser in this case) by right-clicking > restart
 </p>
+
 <br />
