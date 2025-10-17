@@ -77,4 +77,32 @@ C:\PHP\php-cgi.exe
 Go back to the PHP manager and restart your PHP (osticket\labuser in this case) by right-clicking > restart
 </p>
 
+<br>
 <br />
+
+<p>
+<img width="1858" height="897" alt="Captura de pantalla 2025-10-14 222918" src="https://github.com/user-attachments/assets/d479656c-dc7b-45a9-a432-bad365b2c161" />
+</p>
+
+ <p>
+     now go back to the installation file, extract osticket (on the same installation file) and once open, copy the file "upload" into the next route: C:\inetpub\wwwroot then change the name of "upload" to "osTicket"
+ </p>
+
+<br>
+<br />
+
+<p>
+    <img width="1861" height="918" alt="Captura de pantalla 2025-10-14 223158" src="https://github.com/user-attachments/assets/ff15112a-9444-46ba-88e3-4ab2d0dcdc2e" />
+</p>
+
+<p>
+    in IIS restart your php again and follow this route on the left side of your php (like in the picture above): select Sites > Default > osTicket > slect browse 80 on the right side of IIS
+</p>
+
+<br>
+<h2>Step 4</h2>
+<br>
+
+<p>
+    
+</p>
