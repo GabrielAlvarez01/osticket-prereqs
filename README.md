@@ -85,7 +85,7 @@ Go back to the PHP manager and restart your PHP (osticket\labuser in this case) 
 </p>
 
  <p>
-     now go back to the installation file, extract osticket (on the same installation file) and once open, copy the file "upload" into the next route: C:\inetpub\wwwroot then change the name of "upload" to "osTicket"
+     Now go back to the installation file, extract osticket (on the same installation file), and once open, copy the file "upload" into the next route: C:\inetpub\wwwroot, then change the name of "upload" to "osTicket"
  </p>
 
 <br>
@@ -96,7 +96,7 @@ Go back to the PHP manager and restart your PHP (osticket\labuser in this case) 
 </p>
 
 <p>
-    in IIS restart your php again and follow this route on the left side of your php (like in the picture above): select Sites > Default > osTicket > slect browse 80 on the right side of IIS
+In IIS, restart your PHP again and follow this route on the left side of your PHP (like in the picture above): select Sites > Default > osTicket > select browse 80 on the right side of the PHP manager dashboard. Now you should be able to see the osTicket website, but there are some requirements to complete. Let´s activate the server with SQL.
 </p>
 
 <br>
@@ -104,5 +104,26 @@ Go back to the PHP manager and restart your PHP (osticket\labuser in this case) 
 <br>
 
 <p>
+<img width="1881" height="915" alt="Captura de pantalla 2025-10-20 220801" src="https://github.com/user-attachments/assets/0b2490b7-a271-48e0-9977-138ab9fc88d3" />
+</p>
+
+<p>
+Back in IIS, by clicking on the osTicket folder, click PHP Manager, and within the list of files, find and enable: php_imap.dll, php_intl.dll, and php_opcache.dll (in the picture above, it´s how these files look enabled) 
+</p>
+
+<br>
+<br />
+
+<p>
+<img width="1876" height="914" alt="Captura de pantalla 2025-10-20 220903" src="https://github.com/user-attachments/assets/568376e1-564b-4418-8d1b-2ea05c874bbf" />
+    <br>
+   <img width="1870" height="929" alt="Captura de pantalla 2025-10-20 221102" src="https://github.com/user-attachments/assets/269ee0ea-1da9-45ba-99a5-1ffda5422139" />
+ </p>
+
+<p>
+In the C drive, go to wwwroot > osTicket > include, and change the name of the file "ost-sampleconfig.php" into "ost-config.php." Then, right-click on ost-config.php and assign permissions by selecting properties. A pop-up window will open. In there, select the security tab, then click on advanced, and select the option "disable inheritance".
+<br>
+<br />
+On the same advanced pop-up window on the upper right corner, click on select new permissions and type everyone and apply, then click on Add to mark the checkbox "full control"
     
 </p>
