@@ -125,5 +125,48 @@ In the C drive, go to wwwroot > osTicket > include, and change the name of the f
 <br>
 <br />
 On the same advanced pop-up window on the upper right corner, click on select new permissions and type everyone and apply, then click on Add to mark the checkbox "full control"
-    
 </p>
+
+<br>
+<br />
+
+<p>
+  <img width="1860" height="907" alt="Captura de pantalla 2025-10-20 222049" src="https://github.com/user-attachments/assets/2116fc72-0552-4f6d-85a0-5fac76bbe1bb" />
+</p>
+
+<p>
+Let's enable the database now, and go back to the installation file to install HeidiSQL, click next in all the steps until you see the pop-up window from the picture above. Now, click "Add" located in the lower right corner and log in using the same user and Password "root"
+</p>
+
+<br>
+<br />
+
+<p>
+   <img width="1860" height="913" alt="Captura de pantalla 2025-10-20 222354" src="https://github.com/user-attachments/assets/d749e109-ade8-4a6e-bb8c-2112ad3b4799" />
+</p>
+
+ <p>
+     When you have logged in, right-click in "unnamed", select create new > database, name it "osTicket"
+ </p>
+
+ <br>
+ <br />
+
+ <p>
+    <img width="1859" height="911" alt="Captura de pantalla 2025-10-20 223109" src="https://github.com/user-attachments/assets/e948f695-b0ac-4718-96e4-1267194a3f8f" />
+ </p>
+
+ <p>
+      Regarding the osTicket website from PHP, you should be able to click on continue (end of step 3), and you will see the form to establish an account as a customer and an agent; it´s not required to use a real email or personal data. Under database settings, use the information from the picture above, and confirm 
+ </p>
+
+ <br>
+ <br />
+
+ <p>
+   <img width="1159" height="808" alt="Captura de pantalla 2025-10-20 223217" src="https://github.com/user-attachments/assets/1afad44a-d986-4b51-93dd-58285da1522c" />
+  </p>
+
+  <p>
+     This is how it looks once it has been successfully installed
+  </p>
